@@ -7,3 +7,4 @@
 6. 按板子的reset键，可看到led闪烁
 7. 框架在user/run.h里
 8. 具体函数定义在arduino.h里
+![BOARD](https://github.com/yxysjtu/g0_example/assets/53338300/6e13dbe0-e324-44c1-8182-19d6bb870b1a)
