@@ -30,13 +30,19 @@ Build target 'blink'
 compiling main.c...
 ../code/board.h(1): warning:  #1-D: last line of file ends without a newline
   #define SERIAL_PORT (huart2)
-../code/run.h(21): warning:  #1-D: last line of file ends without a newline
+../code/run.h(24): warning:  #1-D: last line of file ends without a newline
   }
 ../Core/Src/main.c: 2 warnings, 0 errors
+compiling arduino.c...
+..\code\board.h(1): warning:  #1-D: last line of file ends without a newline
+  #define SERIAL_PORT (huart2)
+..\code\arduino.c(33): warning:  #1-D: last line of file ends without a newline
+  } 
+..\code\arduino.c: 2 warnings, 0 errors
 linking...
-Program Size: Code=14604 RO-data=380 RW-data=24 ZI-data=1344  
+Program Size: Code=14608 RO-data=380 RW-data=28 ZI-data=1348  
 FromELF: creating hex file...
-"blink\blink.axf" - 0 Error(s), 2 Warning(s).
+"blink\blink.axf" - 0 Error(s), 4 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -59,7 +65,7 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.2.0
-Build Time Elapsed:  00:00:04
+Build Time Elapsed:  00:00:05
 </pre>
 </body>
 </html>

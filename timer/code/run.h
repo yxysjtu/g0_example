@@ -11,10 +11,13 @@ void loop(){ //没有延时，会一直跑
 	delay(500);
 }
 
+uint32_t pwm1 = 0;
+
 void timer_loop(){ //1ms周期
 	adc1 = analogRead();
 	
-	analogWrite(1, 100);
+	//小车该怎么跑
+	analogWrite(1, pwm1);
 	analogWrite(2, 300);
 	analogWrite(3, 500);
 	analogWrite(4, 700);

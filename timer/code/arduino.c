@@ -14,7 +14,7 @@ void delay(uint32_t ms){
 	HAL_Delay(500);
 }
 
-uint16_t analogRead(){
+uint16_t analogRead(){ //0-4095
     return ADC_single(0);
 }
 

@@ -42,7 +42,7 @@ I (../Core/Inc/adc.h)(0x659E79C9)
 I (../Core/Inc/tim.h)(0x659E79CA)
 I (../Core/Inc/usart.h)(0x659E7267)
 I (../Core/Inc/gpio.h)(0x659E7266)
-I (../code/run.h)(0x659E9BA5)
+I (../code/run.h)(0x659E9FC1)
 I (../code/arduino.h)(0x659E9A92)
 I (../code/include.h)(0x659E7E4C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
@@ -1034,8 +1034,8 @@ I (..\code\board.h)(0x659E734C)
 I (../code/lib/myadc.h)(0x659E7DEC)
 I (../Core/Inc/adc.h)(0x659E79C9)
 F (..\code\include.h)(0x659E7E4C)()
-F (..\code\run.h)(0x659E9BA5)()
-F (..\code\arduino.c)(0x659E9A57)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../code -I ../code/lib-I.\RTE\_blink-IC:\Users\asus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\asus\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32G071xx -DUSE_HAL_DRIVER -DSTM32G071xx-o blink\arduino.o --omf_browse blink\arduino.crf --depend blink\arduino.d)
+F (..\code\run.h)(0x659E9FC1)()
+F (..\code\arduino.c)(0x659E9FC1)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../code -I ../code/lib-I.\RTE\_blink-IC:\Users\asus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\asus\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32G071xx -DUSE_HAL_DRIVER -DSTM32G071xx-o blink\arduino.o --omf_browse blink\arduino.crf --depend blink\arduino.d)
 I (..\code\arduino.h)(0x659E9A92)
 I (..\code\include.h)(0x659E7E4C)
 I (../Core/Inc/main.h)(0x659E708B)
