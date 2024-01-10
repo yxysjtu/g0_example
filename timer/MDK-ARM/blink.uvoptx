@@ -163,7 +163,7 @@
         <Ww>
           <count>2</count>
           <WinNumber>1</WinNumber>
-          <ItemText>pwm1</ItemText>
+          <ItemText>pwm1,0x0A</ItemText>
         </Ww>
       </WatchWindow1>
       <Tracepoint>
